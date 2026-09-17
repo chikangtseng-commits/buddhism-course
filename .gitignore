@@ -1,0 +1,12 @@
+# 這個 repo 只是 GitHub Pages 的部署來源，唯一進版控的是 index.html。
+#
+# 影片、音訊、逐字稿、校正稿、講記 JSON、校正規則與工具全部留在本機，
+# 不進版控。course.html 由 build.py 產生，用 `make publish` 複製成 index.html。
+#
+# 作法是「先全部忽略，再逐項放行」——這樣新增任何檔案（尤其是 video/ 裡
+# 動輒數百 MB 的 mp4）都不可能被誤加進來。
+
+/*
+
+!.gitignore
+!index.html
